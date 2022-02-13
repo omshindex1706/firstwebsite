@@ -1,0 +1,165 @@
+h1 {
+  color: #FDFEFF;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+body {
+  font-family: 'Montserrat-black', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.icn{
+  padding: 0 7px;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding: 0 10% 3rem 0;
+}
+
+.nav-item {
+  margin: auto 9%;
+  font-size: 1.35rem;
+  font-family: 'Montserrat-light;', sans-serif;
+}
+
+.title-image {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 20%;
+}
+
+#features {
+  padding: 9% 10%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.desc {
+  color: #8f8f8f;
+}
+
+.logo {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.mid-icons {
+  color: #e18172;
+  margin: 0 auto 3%;
+}
+
+.mid-icons:hover {
+  color: #ff4c68;
+}
+
+.mid-text {
+  text-align: center;
+  padding: 0 5.5%;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#testimonials {
+  background-color: #e18172;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 9% 18%;
+}
+
+#press {
+  background-color: #e18172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 13%;
+  margin: 20px 30px 50px;
+}
+
+#pricing {
+  padding: 150px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.bottom-section{
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  padding: 7% 16%;
+}
+
+.closing-text{
+  font-family: 'Montserrat-black;', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900rem;
+}
+
+.footer-section{
+  text-align: center;
+  padding: 4% 33% 4%;
+}
+
+.icon-links{
+  padding: 0 2% 4%;
+}
+
+.copyright-text{
+  color: #8787A3;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .navbar {
+    padding: 0 2% 3rem 0;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
